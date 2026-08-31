@@ -179,3 +179,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Database and local data
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+downloads/
+.idea/
